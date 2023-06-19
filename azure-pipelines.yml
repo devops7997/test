@@ -4,7 +4,7 @@ trigger: none
 resources:
  repositories:
  - repository: test
-   name: test
+   name: devops7997/test
    type: github
    endpoint: devops7997
 
