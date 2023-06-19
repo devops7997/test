@@ -1,6 +1,11 @@
 # File: azure-pipelines.yml
-trigger:
-- main
+trigger: none
+
+resources:
+ repositories:
+ - repository: test
+   type: github
+   endpoint: devops7997
 
 extends:
   template: simple-param.yml
