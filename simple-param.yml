@@ -10,4 +10,4 @@ jobs:
   pool:
     name: test
   steps:
-  - bash: echo "Hello world"
+  - bash: echo "Hello worll"
